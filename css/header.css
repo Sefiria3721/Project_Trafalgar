@@ -1,0 +1,40 @@
+header{
+    display: grid;
+    grid-template-areas: 
+        "logo nav"
+        "promo promo";
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    width: 1437px;
+    height: 719px;
+    margin-right: 163px;
+}
+
+.logo{
+    background-image: url('../images/logo.png');
+    height: 41px;
+    width: 160px;
+    align-self: start;
+    grid-area: logo;
+
+}
+
+.nav{
+    font-family: var(--main-font);
+    grid-area: nav;
+}
+
+.nav__a{
+    text-decoration: none;
+}
+
+.promo{
+    grid-area: promo;
+    display: grid;
+
+}
+.promo__img{
+    background-image: url('../images/promo.png');
+    width: 693px;
+    height: 598px;
+}
