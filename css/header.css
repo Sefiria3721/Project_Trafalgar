@@ -1,40 +1,41 @@
 header{
     display: grid;
     grid-template-areas: 
-        "logo nav"
-        "promo promo";
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%;
-    width: 1437px;
-    height: 719px;
+        "logo nav";
+    grid-template-columns: auto;
+    width: 1434px;
+    height: 121px;
+    margin-top: 56px;
     margin-right: 163px;
+    margin-left: 191px;
 }
 
 .logo{
+    grid-area: logo;
     background-image: url('../images/logo.png');
     height: 41px;
     width: 160px;
-    align-self: start;
-    grid-area: logo;
-
+    margin-left: 1px;    
 }
 
 .nav{
-    font-family: var(--main-font);
     grid-area: nav;
+    justify-self: end;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-weight: 400;
+    width: 545px;
+    height: 23px;
+    margin-top: 14px; 
+    margin-right: 29px;
 }
 
 .nav__a{
     text-decoration: none;
 }
 
-.promo{
-    grid-area: promo;
-    display: grid;
-
-}
-.promo__img{
-    background-image: url('../images/promo.png');
-    width: 693px;
-    height: 598px;
+.nav__a_home{
+    font-weight: 700;
 }
