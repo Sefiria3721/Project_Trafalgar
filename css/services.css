@@ -1,0 +1,157 @@
+.services_wrapper{
+    display: grid;
+    grid-template-areas: 
+    ". title ."
+    ".rectangle."
+    "text text text"
+    "card card card"
+    ". button .";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    font-family: var(--main-font);
+}
+
+.services__title{
+    grid-area: title;
+    justify-self: center;
+    font-size: 36px;
+    font-weight: 700;
+    height: 56px;
+    margin-top: 192px;
+    margin-bottom: 26px;
+}
+
+.services__text{
+    grid-area: text;
+    justify-self: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.7;
+    height: 60px;
+    width: 952px;
+    margin-top: 33px;
+    margin-bottom: 80px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.services__rectangle{
+    grid-area: rectangle;
+    justify-self: center;
+    height: 2px;
+    width: 56px;
+    background-color: var(--title-color);
+}
+
+.services__cards{
+    grid-area: card;
+    justify-self: center;
+    display: grid;
+    grid-template-areas: 
+    "card_1 card_2 card_3"
+    "card_4 card_5 card_6";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 34px;
+    row-gap: 37px;
+}
+
+.service_card{
+    height: 354px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border-color: var(--white-color);
+    box-shadow: 0 10px 40px 0 var(--shadow-color);
+}
+
+.service_card__title{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    height: 16%;
+    margin: 0px 0px 0px 37px;
+    color: var(--title-color);
+}
+
+.service_card__text{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-color);
+    height: 24%;
+    width: 76%;
+    margin: 0px 0px 13% 37px;
+    line-height: 1.7;
+
+}
+
+.service_card__img{
+    height: 27%;
+    background-repeat: no-repeat;
+    margin: 14% 0 6% 37px;
+}
+
+.service_card__img_doctor{
+    background-image: url('../images/services/doctor.png');
+}
+
+.service_card__img_pharmacy{
+    background-image: url('../images/services/pharmacy.png');
+}
+
+.service_card__img_consultation{
+    background-image: url('../images/services/consultation.png');
+}
+
+.service_card__img_info{
+    background-image: url('../images/services/info.png');
+}
+
+.service_card__img_emergency{
+    background-image: url('../images/services/emergency.png');
+}
+
+.service_card__img_tracking{
+    background-image: url('../images/services/tracking.png');
+}
+
+.card_1{
+    grid-area: card_1;
+}
+
+.card_2{
+    grid-area: card_2;
+
+}
+
+.card_3{
+    grid-area: card_3;
+}
+
+.card_4{
+    grid-area: card_4;
+}
+
+.card_5{
+    grid-area: card_5;
+}
+
+.card_6{
+    grid-area: card_6;
+}
+
+.services__button{
+    grid-area: button;
+    justify-self: center;
+    height: 60px;
+    width: 200px;
+    background-color: var(--white-color);
+    color: var(--button-color);
+    border-color: var(--button-color);
+    border-radius: 55px;
+    border-width: 1.5px;
+    margin-top: 69px;
+    font-weight: 700;
+}
