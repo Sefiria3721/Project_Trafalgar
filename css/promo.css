@@ -1,10 +1,9 @@
 .promo{
+    grid-area: promo;
     display: flex;
     justify-content: space-between;
     width: 1434px;
     height: 598px;
-    margin-right: 163px;
-    margin-left: 190px;
 }
 
 .promo_wrapper{

@@ -1,9 +1,10 @@
 .promo_third{
+    grid-area: promo_third;
     display: flex;
     justify-content: space-between;
     width: 1156px;
     height: 434px;
-    margin: 229px 164px 251px 280px;
+    margin: 229px 0 266px 180px;
 }
 
 .promo_third_wrapper{

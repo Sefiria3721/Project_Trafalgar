@@ -1,4 +1,6 @@
 header{
+    grid-area: header;
+    justify-self: center;
     display: grid;
     grid-template-areas: 
         "logo nav";

@@ -1,19 +1,18 @@
 .promo_second{
+    grid-area: promo_second;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     width: 1273px;
     height: 477px;
-    margin: 220px 192px 0 135px;
-
+    margin: 220px 0 0;
 }
 
 .promo_second_wrapper{
     align-self: center;
     width: 486px;
     height: 388px;
-    font-family: var(--main-font);
-    
+    font-family: var(--main-font); 
 }
 
 .promo_second__title{

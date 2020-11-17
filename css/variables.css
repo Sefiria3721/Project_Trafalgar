@@ -1,6 +1,19 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+
 .wrapper{
-    height: auto;
-    max-width: 1600;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    justify-content: center;
 }
 
 :root {
@@ -12,9 +25,4 @@
     --white-color: #FFFFFF;
     --link-color: #4089ED;
     --shadow-color: #E5E9F6;
-
-
-
-
-
 }

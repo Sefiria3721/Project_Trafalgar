@@ -1,8 +1,11 @@
 .services_wrapper{
+    grid-area: services;
+    justify-self: center;
+    align-self: center;
     display: grid;
     grid-template-areas: 
     ". title ."
-    ".rectangle."
+    ". rectangle ."
     "text text text"
     "card card card"
     ". button .";
