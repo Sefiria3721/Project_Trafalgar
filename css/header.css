@@ -15,8 +15,8 @@ header{
 .logo{
     grid-area: logo;
     background-image: url('../images/logo.png');
-    height: 41px;
     width: 160px;
+    height: 41px;
     margin-left: 1px;    
 }
 
@@ -25,13 +25,13 @@ header{
     justify-self: end;
     display: flex;
     justify-content: space-between;
-    font-family: var(--main-font);
-    font-size: 18px;
-    font-weight: 400;
     width: 545px;
     height: 23px;
     margin-top: 14px; 
     margin-right: 29px;
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .nav__a{

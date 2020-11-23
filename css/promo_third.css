@@ -16,11 +16,11 @@
 
 .promo_third__title{
     width: 254px;
+    margin-bottom:30px;
     font-size: 36px;
     font-weight: 700;
-    margin-bottom:30px;
-    color: var(--title-color);
     line-height: 1.5;
+    color: var(--title-color); 
 }
 
 .promo_third__rectangle{
@@ -42,12 +42,12 @@
     width: 200px;
     height: 56px;
     background-color: var(--white-color);
-    color: var(--button-color);
     border-color: var(--button-color);
     border-radius: 55px;
     border-width: 1.5px;
     font-size: 18px;
     font-weight: 700;
+    color: var(--button-color);
 }
 
 .promo_third__img{

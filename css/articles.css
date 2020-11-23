@@ -1,4 +1,129 @@
-.articles{
+.articles_wrapper{
     grid-area: articles;
     justify-self: center;
+    align-self: center;
+    display: grid;
+    grid-template-areas: 
+    "title"
+    "rectangle"
+    "cards"
+    "button";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    font-family: var(--main-font);
+    width: auto;
+    height: 810px;
+    margin: 222px 157px 201px;
+}
+
+.articles__title{
+    grid-area: title;
+    justify-self: center;
+    width: 462px;
+    height: 56px;
+    margin-bottom: 26px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.articles__rectangle{
+    grid-area: rectangle;
+    justify-self: center;
+    width: 56px;
+    height: 2px;
+    margin-bottom: 79px;
+    background-color: var(--title-color);
+}
+
+.articles__cards{
+    grid-area: cards;
+    display: grid;
+    grid-template-areas: 
+    "card_1 card_2 card_3";
+    grid-template-columns: auto;
+    gap: 35px;
+}
+.article_card{
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 512px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px 0 var(--shadow-color);
+}
+
+.article_card__img{
+    width: 350px;
+    height: 47%;
+    background-repeat: no-repeat;
+}
+
+.article_card__title{
+    display: flex;
+    align-items: center;
+    height: 17%;
+    margin-left: 33px;
+    margin-right: 42px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.article_card__text{
+    height: 19%;
+    margin-left: 33px;
+    margin-right: 55px;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-color);
+    line-height: 1.7;
+}
+
+.article_card__link{
+    height: 17%;
+    margin-left: 33px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--link-color);
+}
+
+.article_card_disease{
+    grid-area: card_1;
+}
+
+.article_card__img_disease{
+    background-image: url(../images/article/disease.png);
+}
+
+.article_card_herbal{
+    grid-area: card_2;
+}
+
+.article_card__img_herbal{
+    background-image: url(../images/article/herbal.png);
+}
+
+.article_card_natural{
+    grid-area: card_3;
+}
+
+.article_card__img_natural{
+    background-image: url(../images/article/natural.png);
+}
+
+.articles__button{
+    grid-area: button;
+    justify-self: center;
+    width: 200px;
+    height: 60px;
+    margin-top: 69px;
+    background-color: var(--white-color);
+    border-color: var(--button-color);
+    border-radius: 55px;
+    border-width: 1.5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--button-color);
 }

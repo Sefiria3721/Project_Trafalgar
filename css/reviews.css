@@ -21,18 +21,18 @@
 .reviews__title{
     grid-area: r_title;
     justify-self: center;
+    height: 48px;
+    margin: 64px 0 25px;
     font-size: 36px;
     font-weight: 700;
     color: var(--white-color);
-    height: 48px;
-    margin: 64px 0 25px;
 }
 
 .reviews__rectangle{
     grid-area: r_rectangle;
     justify-self: center;
-    height: 2px;
     width: 56px;
+    height: 2px;
     background-color: var(--white-color); 
 }
 
@@ -48,11 +48,11 @@
 
 .review_card__photo{
     background-image: url(../images/review/custumer.png);
-    height: 141px;
-    width: 141px;
-    margin-right: 29px;
-    background-repeat: no-repeat;
     align-self: center;
+    background-repeat: no-repeat;
+    width: 141px;
+    height: 141px;
+    margin-right: 29px;
 }
 
 .review_card__info{
@@ -64,31 +64,31 @@
 
 .review_card__name{
     width: 184px;
-    font-size: 22px;
-    font-weight: 700;
     margin-top: 20px;
     margin-bottom: 0;
+    font-size: 22px;
+    font-weight: 700;
 }
 
 .review_card__org{
+    margin: 0;
     font-size: 18px;
     font-weight: 400;
-    margin: 0;
 }
 
 .review_card__text{
-    font-size: 19px;
-    font-weight: 400;
+    align-self: center;
     width: 420px;
     height: 120px;
     margin-left: 110px;
+    font-size: 19px;
+    font-weight: 400;
     line-height: 1.5;
-    align-self: center
 }
 
 .reviews__arrow{
     background-image: url(../images/review/arrow_nav.png);
     width: 336px;
     height: 20px;
-    margin: 42px 38.5%;
+    margin: 42px 38.5% 0;
 }

@@ -17,23 +17,23 @@
 .services__title{
     grid-area: title;
     justify-self: center;
-    font-size: 36px;
-    font-weight: 700;
     height: 56px;
     margin-top: 192px;
     margin-bottom: 26px;
+    font-size: 36px;
+    font-weight: 700;
 }
 
 .services__text{
     grid-area: text;
-    justify-self: center;
+    justify-self: center; 
+    width: 952px;
+    height: 60px;
+    margin-top: 33px;
+    margin-bottom: 80px;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.7;
-    height: 60px;
-    width: 952px;
-    margin-top: 33px;
-    margin-bottom: 80px;
     color: var(--text-color);
     text-align: center;
 }
@@ -41,8 +41,8 @@
 .services__rectangle{
     grid-area: rectangle;
     justify-self: center;
-    height: 2px;
     width: 56px;
+    height: 2px;
     background-color: var(--title-color);
 }
 
@@ -60,10 +60,10 @@
 }
 
 .service_card{
-    height: 354px;
-    width: 350px;
     display: flex;
     flex-direction: column;
+    width: 350px;
+    height: 354px;
     border-radius: 20px;
     border-color: var(--white-color);
     box-shadow: 0 10px 40px 0 var(--shadow-color);
@@ -72,27 +72,26 @@
 .service_card__title{
     display: flex;
     align-items: center;
-    font-size: 24px;
-    font-weight: 700;
     height: 16%;
     margin: 0px 0px 0px 37px;
+    font-size: 24px;
+    font-weight: 700;
     color: var(--title-color);
 }
 
 .service_card__text{
+    width: 76%;
+    height: 24%;
+    margin: 0px 0px 13% 37px;
     font-size: 16px;
     font-weight: 300;
-    color: var(--text-color);
-    height: 24%;
-    width: 76%;
-    margin: 0px 0px 13% 37px;
     line-height: 1.7;
-
+    color: var(--text-color);
 }
 
 .service_card__img{
-    height: 27%;
     background-repeat: no-repeat;
+    height: 27%;
     margin: 14% 0 6% 37px;
 }
 
@@ -126,7 +125,6 @@
 
 .card_2{
     grid-area: card_2;
-
 }
 
 .card_3{
@@ -148,14 +146,14 @@
 .services__button{
     grid-area: button;
     justify-self: center;
-    height: 60px;
     width: 200px;
+    height: 60px;
+    margin-top: 69px;
     background-color: var(--white-color);
-    color: var(--button-color);
     border-color: var(--button-color);
     border-radius: 55px;
     border-width: 1.5px;
-    margin-top: 69px;
     font-size: 18px;
     font-weight: 700;
+    color: var(--button-color);
 }

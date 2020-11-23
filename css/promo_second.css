@@ -16,11 +16,11 @@
 }
 
 .promo_second__title{
+    margin-bottom:26px;
     font-size: 36px;
     font-weight: 700;
-    margin-bottom:26px;
-    color: var(--title-color);
     line-height: 1.5;
+    color: var(--title-color);
 }
 
 .promo_second__rectangle{
@@ -42,12 +42,12 @@
     width: 200px;
     height: 60px;
     background-color: var(--white-color);
-    color: var(--button-color);
     border-color: var(--button-color);
     border-radius: 55px;
     border-width: 1.5px;
     font-size: 18px;
     font-weight: 700;
+    color: var(--button-color);
 }
 
 .promo_second__img{
